@@ -3,14 +3,14 @@ The OpenCV2 HOG cascade ported for OpenCV3
 
 ## Introduction
 
-This contains the opencv2.x implementation for the HOGEvaluator. I just copied the needed sources and made extra classes out of it. With this its possible to use HOG trained cascade models in OpenCV3.x.
+This contains the OpenCV2.x implementation for the HOG cascade. I just copied the needed sources and made extra classes out of it. With this its possible to use HOG trained cascade models in OpenCV3.x.
 
 You can build a library out of it or add it directly into your code.
 
 I couldn't add it properly to the Classifier and Evaluator Framework so it contains extra classes:
 
 * cv::HOGCascadeClassifier (Its basically the same as CascadeClassifier, but just for HOGEvaluators)
-* cv::HOGEvaluator (The Evaluator it does not inherit from FeatureEvaluator but it could)
+* cv::HOGEvaluator (The Evaluator, it does not inherit from FeatureEvaluator, but it could somehow I guess)
 
 ## Usage
 
