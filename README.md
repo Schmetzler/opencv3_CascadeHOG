@@ -1,4 +1,4 @@
-# opencv3_CascadeHOG
+# OpenCV3 CascadeHOG
 The OpenCV2 HOG cascade ported for OpenCV3
 
 ## Introduction
